@@ -1,3 +1,6 @@
+# ™️URL
+打那麼多誰 ™️ 看得完，請多加使用短網址。
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
