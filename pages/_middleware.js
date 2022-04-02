@@ -5,7 +5,7 @@ import ReactGA from 'react-ga';
 export async function middleware(req) {
   const { pathname } = req.nextUrl
   const decodedStr = decodeURIComponent(pathname)
-  const db = await getOriginURL(decodedStr.substring(1))
+  const db = await getOriginURL(decodedStr.substring(1) || 'index')
   const GA_TRACKING_ID = process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS
   ReactGA.initialize(GA_TRACKING_ID)
   ReactGA.pageview(decodedStr)
